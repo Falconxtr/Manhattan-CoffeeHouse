@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Primeira Seção */
+.primeira-secao {
+    background-color: #604829;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 1;
+}
+
+.primeira-secao img {
+    width: 100px;
+    left: 15%;
+    margin: 0 auto;
+}
+
+.primeira-secao a {
+    color: #c4a47c;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    padding: 0 8px;
+    font-weight: bold;
+    text-shadow: 3px 3px 0 black;
+}
+
+.primeira-secao span {
+    position: absolute;
+    top: 35%;
+    right: 15%;
+}
+
+/* Segunda Seção*/
+.secao-banner {
+    background-image: url('img/parallax-imagem1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 0;
+    position: relative;
+}
+
+.secao-banner-part2 {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.secao-banner h1 {
+    color: #fff;
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    font-size: 70px;
+    margin: 0 auto;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    font-weight: normal;
+}
+
+/* Seção Informações */
+.secao-informacoes {
+    text-align: center;
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.secao-informacoes h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #c4a47c;
+    padding-bottom: 25px;
+}
+
+.secao-informacoes p {
+    font-family: 'Lato', sans-serif;
+    color: #666;
+    width: 100%;
+    max-width: 1024px;
+    padding: 0 20px;
+    margin: 0 auto;
+    line-height: 35px;
+}
+
+/* Seção Informações - Imagens */
+.paralax-2 {
+    background-image: url('img/parallax-imagem2.jpg');
+}
+
+.paralax-3 {
+    background-image: url('img/parallax-imagem3.jpg');
+}
+
+.efeito-paralax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.efeito-paralax-part2 {
+    height: 50vh;
+}
+
+.efeito-paralax-part2 h3 {
+    background-color: #604829;
+    font-family: 'Fraunces', serif;
+    color: #fff;
+    width: 350px;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    left: 0;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Seção Contatos */
+.secao-contatos {
+    background-image: url('img/parallax-imagem4.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+    position: relative;
+}
+
+.secao-contatos h2 {
+    background-color: #604829;
+    font-family: 'Fraunces', serif;
+    color: #fff;
+    width: 350px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+}
+
+.secao-contatos .secao-contatos-rodape {
+    background-color: #604829;
+    font-family: 'Fraunces', serif;
+    text-shadow: 3px 3px 10px black;
+    color: #fff;
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 8%;
+    right: 0;
+    left: 0;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+iframe {
+    position: absolute;
+    top: 23%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
