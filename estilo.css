@@ -218,6 +218,7 @@ iframe {
     right: 0;
     left: 0;
     bottom: 50%;
+    margin: 0 auto;
 }
 
 .lista li p {
