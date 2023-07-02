@@ -8,7 +8,6 @@
 .primeira-secao {
     background-color: #604829;
     width: 100%;
-    height: 80px;
     position: fixed;
     z-index: 1;
 }
@@ -16,19 +15,21 @@
 .primeira-secao img {
     width: 100px;
     left: 15%;
-    margin: 0 auto;
+    position: relative;
 }
 
-.primeira-secao a {
-    color: #c4a47c;
+.primeira-secao div a {
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
     text-decoration: none;
-    font-family: 'Oswald', sans-serif;
-    padding: 0 8px;
-    font-weight: bold;
-    text-shadow: 3px 3px 0 black;
+    text-shadow: 3px 5px 2px #000000;
+    letter-spacing: 2px;
+    color: #c4a47c;
 }
 
-.primeira-secao span {
+.primeira-secao div {
     position: absolute;
     top: 35%;
     right: 15%;
@@ -40,8 +41,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     padding: 50px 0;
-    position: relative;
 }
 
 .secao-banner-part2 {
@@ -168,4 +169,97 @@ iframe {
     left: 0;
     right: 0;
     margin: 0 auto;
+}
+
+/* Seção Horários */
+.secao-horarios {
+    background-image: url('img/cafeteria.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    position: relative;
+}
+
+.secao-horarios h2 {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    font-family: 'Fraunces', serif;
+}
+
+.lista {
+    font-family: 'Fraunces', serif;
+    width: 768px;
+    position: absolute;
+    bottom: 20%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.lista li {
+    position: relative;
+}
+
+.lista li div {
+    width: 70%;
+    height: 1px;
+    background-color: #acacac;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 50%;
+}
+
+.lista li p {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.secao-horarios span {
+    color: #c4a47c;
+}
+
+.secao-horarios p {
+    color: #ACACAC;
+}
+
+/* Seção Rodapé */
+.secao-rodape {
+    padding: 20px 0;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    line-height: 35px;
+    font-size: 16px;
+    position: relative;
+}
+
+.secao-rodape span {
+    color: #c4a47c;
+}
+
+.secao-rodape a {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 80px;
+    right: 50px;
+}
+
+.secao-rodape img {
+    background-color: #c4a47c;
+    border-radius: 6px;
 }
