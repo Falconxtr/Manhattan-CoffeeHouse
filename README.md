@@ -1,5 +1,5 @@
 # Projeto -  Website para uma cafeteria
-A proposta desse projeto é criar um site utilizando as tecnologias HTML e CSS. 
+Esse é um projeto desenvolvido pela DevMedia. A proposta desse projeto é criar um site utilizando as tecnologias HTML e CSS. 
 
 ## Segue os conceitos aplicados
   - Implementar uma **lista** na página;
